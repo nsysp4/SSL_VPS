@@ -28,7 +28,7 @@ ip=$(curl https://api.ipify.org/)
 echo $ip
 clear
 
-echo -e "Presione Enter"
+echo -e "Presiona Enter"
 sleep 1
 
 openssl genrsa 2048 > stunnel.key
@@ -42,7 +42,7 @@ clear
 cat stunnel.crt stunnel.key > stunnel.pem 
 mv stunnel.pem /etc/stunnel/
 clear
-echo -e "\033[1;31mESCRIBA EL PUERTO SSL A UTILIZAR"
+echo -e "\033[1;31mESCRIBE EL PUERTO SSL A UTILIZAR"
 read -p ": " port
 clear
 echo "client = no " >> /etc/stunnel/stunnel.conf
@@ -74,7 +74,7 @@ echo -e "\033[1;33m- - - - -> \033[01;34mSU IP HOST:\033[0m $ip"
 sleep 1
 echo -e "\033[1;31mReinicie su VPS (Opcional) - sudo reboot"
 sleep 2
-echo -e "\033[1;33m- - ->>C A N A L \033[01;34mhttp://t.me/PwrMX"
-echo -e "\033[1;33m- - ->>Modulo VPSPack \033[01;34m@PowerMX"
+echo -e "\033[1;33m- - ->>C A N A L no hay"
+echo -e "\033[1;33m- - ->>Modulo tampoco"
 sleep 1
 rm install
