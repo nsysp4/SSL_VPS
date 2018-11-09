@@ -7,5 +7,5 @@
 
 Copia y pega el siguiente comando para realizar la instalación
 
-wget https://raw.githubusercontent.com/powermx/ssl/master/install && bash install
 
+wget https://raw.githubusercontent.com/nsysp4/SSL_VPS/master/install && bash install
