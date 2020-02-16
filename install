@@ -67,14 +67,14 @@ clear
 echo -e "\033[1;33m ***********REINICIADO...*************"
 clear
 
-echo -e "\033[1;33m **********************************"
-echo -e "\033[1;33mCONFIGURACION SSL CREADA CON EXITO"
-echo -e "\033[1;33m **********************************"
+echo -e "\033[1;33m ******************************************"
+echo -e "\033[1;33mCONFIGURACIÓN SSL CREADA SATISFACTORIAMENTE"
+echo -e "\033[1;33m ******************************************"
 echo -e "\033[1;33m- - - - -> \033[01;34mSU IP HOST:\033[0m $ip"
 sleep 1
 echo -e "\033[1;31mReinicie su VPS (Opcional) - sudo reboot"
 sleep 2
-echo -e "\033[1;33m- - ->>C A N A L no hay"
-echo -e "\033[1;33m- - ->>Modulo tampoco"
+echo -e "\033[1;33m- - ->>Modifique los puertos en la siguiente ruta:"
+echo -e "\033[1;33m- - ->># /etc/stunnel/stunnel.conf"
 sleep 1
 rm install
